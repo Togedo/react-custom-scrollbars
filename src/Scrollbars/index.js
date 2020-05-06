@@ -610,7 +610,7 @@ export default class Scrollbars extends Component {
 
     const trackAutoHeightStyle = {
       transition: `opacity ${autoHideDuration}ms`,
-      opacity: 0,
+      opacity: this.props.autoHideOpacity,
     };
 
     const trackHorizontalStyle = {
